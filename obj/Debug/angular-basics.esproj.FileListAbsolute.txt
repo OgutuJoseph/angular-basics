@@ -1,0 +1,2 @@
+D:\Projects\AngularProjects\angular-basics\obj\Debug\angular-basics.esproj.SuggestedBindingRedirects.cache
+D:\Projects\AngularProjects\angular-basics\obj\Debug\angular-basics.esproj.CoreCompileInputs.cache
