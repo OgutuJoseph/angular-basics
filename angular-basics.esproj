@@ -3,10 +3,20 @@
     <StartupCommand>npm start</StartupCommand>
     <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
     <!-- Command to run on project build -->
-    <BuildCommand></BuildCommand>
+    <BuildCommand>
+    </BuildCommand>
     <!-- Command to create an optimized build of the project that's ready for publishing -->
     <ProductionBuildCommand>npm run build</ProductionBuildCommand>
     <!-- Folder where production build objects will be placed -->
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\angular-basics</BuildOutputFolder>
   </PropertyGroup>
+  <ItemGroup>
+    <TypeScriptConfiguration Remove="src\NewFolder1\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="src\NewFolder1\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\scripts\" />
+  </ItemGroup>
 </Project>
